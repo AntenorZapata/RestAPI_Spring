@@ -1,1 +1,1 @@
-### Employee Manager App with Angular, Spring and MySql.
+##### Employee Manager App with Angular, Spring and MySql. Branch - employee-manager.
