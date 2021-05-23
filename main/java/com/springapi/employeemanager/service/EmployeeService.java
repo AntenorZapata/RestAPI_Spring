@@ -27,7 +27,7 @@ public class EmployeeService {
 		
 	}
 	
-	public List<Employee> findAllEmployee() {
+	public List<Employee> findAllEmployees() {
 		return employeeRepo.findAll();
 	}
 	
