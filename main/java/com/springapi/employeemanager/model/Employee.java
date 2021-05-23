@@ -24,7 +24,7 @@ public class Employee implements Serializable {
 	@Column(nullable = false, updatable = false)
 	private String employeeCode;
 	
-		
+	// constructor	
 	public Employee(Long id, String name, String email, String jobTitle, String phone, String imageUrl,
 			String employeeCode) {
 		super();
@@ -36,6 +36,8 @@ public class Employee implements Serializable {
 		this.imageUrl = imageUrl;
 		this.employeeCode = employeeCode;
 	}
+	
+	//getters and setters
 
 	public Long getId() {
 		return id;
@@ -95,6 +97,8 @@ public class Employee implements Serializable {
 		this.employeeCode = employeeCode;
 	}
 
+	// toString
+	
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", name=" + name + ", email=" + email + ", jobTitle=" + jobTitle + ", phone="
