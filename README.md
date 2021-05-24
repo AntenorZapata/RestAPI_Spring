@@ -1,1 +1,1 @@
-### RestApi with Spring and MYsql
+### RestApi with Spring and MySQL.
